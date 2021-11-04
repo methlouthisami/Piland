@@ -1,0 +1,53 @@
+.Card-work{
+    
+    margin-top:50px;
+    margin-left:-80px;
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-around;
+      
+   
+}
+
+.img-wrapper {  
+  width: 450px;
+  height: 250px;
+  overflow: hidden; 
+  
+ 
+}
+.Card{
+     margin-bottom:20px
+}
+.inner-img {
+    width:450px;
+  transition: 0.3s;
+}
+
+.inner-img:hover {
+  transform: scale(1.1);
+}
+
+/* Other styling elements, that are not necessary for the example */
+
+.img-wrapper {
+  display: inline-block;
+  box-sizing: border-box;
+ box-shadow: 0px 4px 4px rgb(128, 128, 128);
+ border-radius:0px 15px 0px 15px;
+ margin-bottom: 20px;
+}
+hr{
+    margin-left:-40px;
+   
+    display: block;
+    content: '';
+    width: 101%;
+    height:50px;
+    background-color: #eee;
+    opacity: 1;
+}
+.work h2{
+    margin-top:20px;
+    margin-left:-30px;
+}
