@@ -2,6 +2,7 @@ import react from "react";
 import "./Home.css";
 import Aside from "../Nav";
 import AcceuilImg from '../../images/two-busines.jpg'
+import parallaxIt from "../../Img"
 export default function Home() {
   return (
     <div className="row main">
@@ -10,7 +11,11 @@ export default function Home() {
       </div>
       <div className="Homi col-md-10 row ">
         <div className="col-md-6 IIMg">
-          <img src={AcceuilImg} style={{ width: "530px", height: "450px" }} />
+          <div id="container">
+            <img src={AcceuilImg} style={{width:"500px"}}/>
+
+            <div class="slide one"></div>
+          </div>
         </div>
         <div className="col-md-5    Pagee">
 
